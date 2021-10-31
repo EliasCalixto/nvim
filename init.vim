@@ -11,11 +11,21 @@ set laststatus=2
 set sw=2
 let mapleader = " "
 set backspace=2
+set numberwidth=1
+set clipboard=unnamed
+set sw=2
 
 
 call plug#begin('~/.config/nvim/plugged')
 
-
+Plug 'preservim/nerdtree'
+Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
+Plug 'sirver/ultisnips'
+Plug 'easymotion/vim-easymotion'
+Plug 'mhinz/vim-signify'
+Plug 'yggdroot/indentline'
+Plug 'scrooloose/nerdcommenter'
 
 " themes "
 
@@ -41,4 +51,12 @@ let g:lightline = {
       \   'helloworld': 'darkesthj'
       \ },
       \ }
+
+" maps "
+
+map <silent> <C-n> :NERDTreeFocus<CR>
+nmap <leader>s <Plug>(easymotion-s2)
+
+
+
 
