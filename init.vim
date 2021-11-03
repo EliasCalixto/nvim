@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
 Plug 'alvan/vim-closetag'
-Plug 'sirver/ultisnips'
+"Plug 'sirver/ultisnips'
 Plug 'easymotion/vim-easymotion'
 Plug 'mhinz/vim-signify'
 Plug 'yggdroot/indentline'
@@ -56,7 +56,9 @@ let g:lightline = {
 
 map <silent> <C-n> :NERDTreeFocus<CR>
 nmap <leader>s <Plug>(easymotion-s2)
-
+tnoremap <Esc> <C-\><C-n>
+nmap <leader>l $
+nmap <leader>h 0
 
 
 
