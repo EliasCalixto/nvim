@@ -57,8 +57,9 @@ let g:lightline = {
 map <silent> <C-n> :NERDTreeFocus<CR>
 nmap <leader>s <Plug>(easymotion-s2)
 tnoremap <Esc> <C-\><C-n>
-nmap <leader>l $
-nmap <leader>h 0
-
+nmap L $
+nmap H 0
+nmap J 10j
+nmap K 10k
 
 
