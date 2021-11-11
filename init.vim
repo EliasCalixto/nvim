@@ -61,5 +61,5 @@ nmap L $
 nmap H 0
 nmap J 10j
 nmap K 10k
-
+nmap <Tab> i<Tab><Esc>
 
