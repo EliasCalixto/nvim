@@ -16,7 +16,7 @@ set clipboard=unnamed
 set sw=2
 
 
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.autoload/plug.vim')
 
 Plug 'preservim/nerdtree'
 Plug 'sheerun/vim-polyglot'
@@ -38,6 +38,14 @@ Plug 'itchyny/lightline.vim'
 " "
 
 call plug#end()
+
+let g:tokyonight_transparent = "true"
+let g:tokyonight_style = "night"
+let g:tokyonight_italic_functions = 1
+let g:tokyonight_colors = {
+  \ 'hint': 'orange',
+  \ 'error': '#ff0000'
+\ }
 
 colorscheme tokyonight
 

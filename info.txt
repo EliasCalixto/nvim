@@ -1,0 +1,1 @@
+mover ambas carpetas a C:\users\Elias\appdata
