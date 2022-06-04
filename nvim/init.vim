@@ -34,6 +34,7 @@ Plug 'ayu-theme/ayu-vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'one/lightline.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'joshdick/onedark.vim'
 
 " "
 
@@ -48,9 +49,10 @@ let g:tokyonight_colors = {
 \ }
 
 colorscheme tokyonight
+set background=dark
 
 let g:lightline = {
-      \ 'colorscheme': 'one',
+      \ 'colorscheme': 'tokyonight',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'readonly', 'filename', 'modified', 'helloworld' ] ]

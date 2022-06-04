@@ -1,1 +1,3 @@
 mover ambas carpetas a C:\users\Elias\appdata
+
+mover autoload a C:\Users\Elias\.autoload\plug.vim
